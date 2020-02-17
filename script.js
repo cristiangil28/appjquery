@@ -1,0 +1,1 @@
+alert('tutorial jquery');
