@@ -1,4 +1,60 @@
-body {
-    background-color: black;
-    margin: 0;
+#app-container{
+    width: 100%;
+    overflow: hidden;
 }
+body{
+    background-color: white;
+}
+
+#app-header{
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    text-align: center;
+    background-color: black;
+}
+#app-header h1{
+    line-height: 10vh;
+    margin: 0;
+    color: white;
+}
+
+#app-body{
+    padding-top: 75vh;
+    width: 80%;
+    margin: 0 auto
+}
+
+#app-footer{
+    width: 100%;;
+}
+
+#app-footer p{
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid #7f8c8d;
+}
+
+.tv-show{
+    width: 100%;
+    overflow: hidden;
+    padding: 16px;
+    background-color: white;
+    margin-bottom: 16px;
+}
+.tv-show:hover{
+    background-color: #ecf0f1;
+}
+
+.tv-show img{
+    max-width: 100px;
+    max-height: 60px;
+}
+
+.tv-show .info{
+    padding-left: 20px;
+    float: right;
+}
+
